@@ -1,10 +1,10 @@
 # Guia-CSS
 
-this is the first page i've done while studying for css style tools
+this is the first page i've done while studying for css style tools.
 
-CSS is a tool for optimize the style of your website. As we can see in the style.css, file we need to put some attributes for each sector that we call in our html file
+CSS is a tool for optimize the style of your website. As we can see in the style.css, file we need to put some attributes for each sector that we call in our html file.
 
-for example
+for example.
 
 We have a tag called h1, which means the first heading tag, in this css file, we put an "{}" in front of this element to put the attributes inside of it, theres a lot of attributes we can put in each tag of our html file and the css will help us to style this elements. 
     
