@@ -19,3 +19,21 @@ In another example we have the "*" tag that we can put some attributes too, this
       font-size: 10px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */ 
       font-family: "Open Sans", sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */ 
      }
+
+Today i am very grateful to learn all about the 'position' tool in css, with this tool you can make for example a menu that overlaps the top of the page, or the position you prefer, until the end of it. With just this you can make your design very responsive and helpful for the user.
+    html
+    
+    .menu-fixed{
+	    width: 100%;
+	    height:200px;
+	    background: #069;
+	    position: fixed; /* o item em questão fica fixo na tela até o final da página*/
+
+    }	
+    .box{
+	    width: 100%;
+        height: 1400px;
+	    background:green;
+    }
+    
+In this example we can see an div that correspond with a menu that overlaps the rest of the page, in this case the menu is always there in case you wanna go somewhere else
