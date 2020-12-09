@@ -41,6 +41,7 @@ In this example we can see an div that correspond with a menu that overlaps the 
 BACKGROUND
 In this lesson we will know all about background in css
 example
+
 	.bg{
 		background-color: #ccc;
 		background-color: rgba(200, 200, 200, 0.4); 
