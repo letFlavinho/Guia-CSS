@@ -63,4 +63,8 @@ By default in case the width and height pass the size of the image it will be co
 	background-repeat: no-repeat;
 	
 <blockquote>it is completely possible to do the opposite with the 'repeat-x' and 'repeat-y' attributes AND changing the 'background-size' to test the better way to make use of your background image</blockquote>
+	
+	background-size: cover;
+
+The CSS background-size property specifies the size of the background images. The size of the image can be totally or only partially in order to preserve its aspect ratio.
 
