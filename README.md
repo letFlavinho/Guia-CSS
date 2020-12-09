@@ -48,8 +48,8 @@ example
 		background-color: gray;
 
 	}
-in the first case, there's the hexadecimal code for the color.
-in this seconde case, the rgba it means the 3 shades of red, green and blue and the opacity.
-in the last case, we just put the name of the color you want.
+In the first case, there's the hexadecimal code for the color.
+In this seconde case, the rgba it means the 3 shades of red, green and blue and the opacity.
+In the last case, we just put the name of the color you want.
 
 
