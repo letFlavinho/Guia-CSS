@@ -52,4 +52,10 @@ In the first case, there's the hexadecimal code for the color.
 In this seconde case, the rgba it means the 3 shades of red, green and blue and the opacity.
 In the last case, we just put the name of the color you want.
 
+You can put an image in your website being imported by the css like this.
+	
+	.bg{
+		background-image:url('../imagens/imagem.jpg')
+	}
+
 
