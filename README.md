@@ -45,8 +45,11 @@ example
 	.bg{
 		background-color: #ccc;
 		background-color: rgba(200, 200, 200, 0.4); 
-
+		background-color: gray;
 
 	}
-in this case, the rgba it means the 3 shades of red, green and blue and the opacity
+in the first case, there's the hexadecimal code for the color.
+in this seconde case, the rgba it means the 3 shades of red, green and blue and the opacity.
+in the last case, we just put the name of the color you want.
+
 
