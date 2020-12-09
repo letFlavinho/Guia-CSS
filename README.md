@@ -36,4 +36,16 @@ Today i am very grateful to learn all about the 'position' tool in css, with thi
 	    background:green;
     }
     
-In this example we can see an div that correspond with a menu that overlaps the rest of the page, in this case the menu is always there in case you wanna go somewhere else
+In this example we can see an div that correspond with a menu that overlaps the rest of the page, in this case the menu is always there in case you wanna go somewhere else.
+
+BACKGROUND
+In this lesson we will know all about background in css
+example
+	.bg{
+		background-color: #ccc;
+		background-color: rgba(200, 200, 200, 0.4); 
+
+
+	}
+in this case, the rgba it means the 3 shades of red, green and blue and the opacity
+
