@@ -62,5 +62,5 @@ By default in case the width and height pass the size of the image it will be co
 	
 	background-repeat: no-repeat;
 	
-	<blockquote>it is completely possible to do the opposite with the 'repeat-x' and 'repeat-y' attributes</blockquote>
+<blockquote>it is completely possible to do the opposite with the 'repeat-x' and 'repeat-y' attributes</blockquote>
 
