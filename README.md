@@ -68,7 +68,7 @@ The CSS background-size property specifies the size of the background images. Th
 	
 	background-size: cover;
 
-#CSS3 Flexbox: Functioning and properties
+<h1>CSS3 Flexbox: Functioning and properties</h1>
         
 The flexbox is a CSS3 concept that aims to organize the elements of an html page inside his own containers in a dinamic way. That is, independent of his own dimensions they always maintain a flexible layout inside his father element, reorganizing itself and according to the needs of.
 
