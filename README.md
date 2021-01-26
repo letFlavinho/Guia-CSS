@@ -68,9 +68,9 @@ The CSS background-size property specifies the size of the background images. Th
 	
 	background-size: cover;
 
-CSS3 Flexbox: Functioning and properties
-             
-   The flexbox is a CSS3 concept that aims to organize the elements of an html page inside his own containers in a dinamic way. That is, independent of his own dimensions they always maintain a flexible layout inside his father element, reorganizing itself and according to the needs of.
+#CSS3 Flexbox: Functioning and properties
+        
+The flexbox is a CSS3 concept that aims to organize the elements of an html page inside his own containers in a dinamic way. That is, independent of his own dimensions they always maintain a flexible layout inside his father element, reorganizing itself and according to the needs of.
 
 	html
 	<div class="container">
@@ -80,7 +80,7 @@ CSS3 Flexbox: Functioning and properties
 	 </div>
 
 css
-display
+<h2>display</h2>
 
 	.container{
 	    display:flex;
@@ -109,7 +109,7 @@ The flex-direction property must be applied to the container and defines the dis
 "wrap-reverse": The line will break and the rightmost items will be moved to the top line;
 
 
-flex-flow
+<h2>Flex-flow</h2>
 This property is a short form for writing the flex-direction and flex-wrap properties, in that order. Therefore, it applies to the container.
 
 Usually these properties are defined one by one, as follows:
@@ -123,7 +123,7 @@ Usually these properties are defined one by one, as follows:
 With flex-flow we can write both in a simplified way:
     flex-flow: column wrap;
 
-justify-content
+<h2>justify-content<h2>
 The justify-content property defines the alignment of items along the main axis of the container. The syntax and possible values ​​for this property are shown below:
 	
 	.container {
@@ -136,7 +136,7 @@ The justify-content property defines the alignment of items along the main axis 
 "space-between": The first item is moved to the beginning of the main axis, the last is moved to the end of the main axis and the rest are evenly distributed among them;
 "space-around": Items are evenly distributed along the main axis. Here, however, equal margins are assigned to the left and right (or up and down, depending on the direction of the main axis). For this reason, the first and last items are not “glued” to the edges of the container.
 
-align-content
+<h2>align-content</h2>
 
 This property defines how the lines are distributed along the container's transversal axis. The syntax and possible values for this property are shown below:
 	
@@ -152,7 +152,7 @@ This property defines how the lines are distributed along the container's transv
 "space-between": The first line is shifted to the beginning of the transverse axis, the last is shifted to the end of the transverse axis and the rest are evenly distributed between them;
 "space-around": The lines are evenly distributed along the transverse axis. Here, however, equal margins are assigned to the left and right (or above and below, depending on the direction of the transverse axis). That is why the first and last lines are not “glued” to the edges of the container.
 
-align-items
+<h2>align-items</h2>
 This property defines how the items are distributed along the transversal axis of the container. The syntax and possible values for this property are shown below:
 	
 	.container {
