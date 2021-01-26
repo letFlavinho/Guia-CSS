@@ -68,5 +68,101 @@ The CSS background-size property specifies the size of the background images. Th
 	
 	background-size: cover;
 
+CSS3 Flexbox: Functioning and properties
+             
+   The flexbox is a CSS3 concept that aims to organize the elements of an html page inside his own containers in a dinamic way. That is, independent of his own dimensions they always maintain a flexible layout inside his father element, reorganizing itself and according to the needs of.
 
+	html
+	<div class="container">
+	     <div class="item item1"></div>
+	     <div class="item item2"></div>
+	     <div class="item item3"></div>
+	 </div>
+
+css
+display
+
+	.container{
+	    display:flex;
+	}
+
+This is necessary for the other properties to show the expected result.
+
+The flex-direction property must be applied to the container and defines the display axis / flow in which the elements will be organized.
+
+	.container{
+	    display:flex;
+	    flex-direction:[row / row-reverse / column / column-reverse];
+	}	
+   "row" (default): The items are organized inline from the left to right 
+   "row-reverse": The items are organized inline from the right to the left
+   "column":  The items are organized in columns starting from the top to the bottom
+   "column-reverse": The items are organized in columns starting from the bottom to the top
+        
+
+	.container {
+	     display: flex;
+	     flex-wrap: [nowrap / wrap / wrap-reverse]; 
+	}
+"nowrap" (default): All items are disposed in one line;
+"wrap": The line will break and the rightmost items will be moved to the bottom line;
+"wrap-reverse": The line will break and the rightmost items will be moved to the top line;
+
+
+flex-flow
+This property is a short form for writing the flex-direction and flex-wrap properties, in that order. Therefore, it applies to the container.
+
+Usually these properties are defined one by one, as follows:
+
+	.container {
+	    display: flex;
+	    flex-direction: column;
+	    flex-wrap: wrap;
+	}
+
+With flex-flow we can write both in a simplified way:
+    flex-flow: column wrap;
+
+justify-content
+The justify-content property defines the alignment of items along the main axis of the container. The syntax and possible values ​​for this property are shown below:
+	
+	.container {
+	     display: flex;
+	     justify-content: [flex-start/flex-end/center/space-between/space-around];
+	}
+"flex-start" (default): Items are aligned from the beginning of the main axis;
+"flex-end": Items are aligned from the end of the main axis;
+"center": Items are aligned to the center of the main axis;
+"space-between": The first item is moved to the beginning of the main axis, the last is moved to the end of the main axis and the rest are evenly distributed among them;
+"space-around": Items are evenly distributed along the main axis. Here, however, equal margins are assigned to the left and right (or up and down, depending on the direction of the main axis). For this reason, the first and last items are not “glued” to the edges of the container.
+
+align-content
+
+This property defines how the lines are distributed along the container's transversal axis. The syntax and possible values for this property are shown below:
+	
+	.container {
+	    display: flex;
+	    align-content: [stretch/flex-start/flex-end/center/space-between/space-around];
+	}
+    
+"stretch" (standard): The lines are evenly distributed along the transversal axis, occupying all the available space;
+"flex-start": The lines are distributed from the beginning of the transversal axis;
+"flex-end": The lines are distributed from the end of the transversal axis;
+"center": The lines are kept in the center of the transversal axis;
+"space-between": The first line is shifted to the beginning of the transverse axis, the last is shifted to the end of the transverse axis and the rest are evenly distributed between them;
+"space-around": The lines are evenly distributed along the transverse axis. Here, however, equal margins are assigned to the left and right (or above and below, depending on the direction of the transverse axis). That is why the first and last lines are not “glued” to the edges of the container.
+
+align-items
+This property defines how the items are distributed along the transversal axis of the container. The syntax and possible values for this property are shown below:
+	
+	.container {
+	    display: flex;
+	    align-items: [stretch/flex-start/flex-end/center/space-between/space-around];
+	}
+
+"stretch" (default): Items will be stretched to fill the entire dimension of the transverse axis (height or width);
+"flex-start": Items are moved to the beginning of the transversal axis;
+"flex-end": Items are moved to the end of the transverse axis;
+"center": Items are centered on the transversal axis;
+"baseline": Items are aligned from the bottom of the first line of text for each.
 
