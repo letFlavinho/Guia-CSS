@@ -123,7 +123,7 @@ Usually these properties are defined one by one, as follows:
 With flex-flow we can write both in a simplified way:
     flex-flow: column wrap;
 
-<h2>justify-content<h2>
+<h2>justify-content</h2>
 The justify-content property defines the alignment of items along the main axis of the container. The syntax and possible values ​​for this property are shown below:
 	
 	.container {
